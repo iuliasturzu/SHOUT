@@ -1,0 +1,59 @@
+
+/* navbar */
+.navbar {
+    background-color: #310452;
+}
+
+.navbar .navbar-logo {
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+.navbar-logo img {
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: center;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(235, 0, 0);
+}
+
+/* carusel */
+
+.ratio img {
+    object-fit: cover;
+}
+
+/* Meniu */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.accordion-body ul {
+    padding-left: 0;
+}
+
+/*footer*/
+footer {
+    background-color: #1f0234 ;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 0px 10px;
+    max-width: 100%;
+}
